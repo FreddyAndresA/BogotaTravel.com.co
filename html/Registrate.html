@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="./estilos/generales.css">
+    <link rel="stylesheet" href="../estilos/generales.css">
+    <link rel="stylesheet" href="../estilos/registrese.css">
     <title>BogotaTravel.com.co</title>
 </head>
 <body>
 
-  <header class="header" style="margin-top: 30px"></header>
+    <!--Inicio de Nav Estatico-->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-4 gradient">
     <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -46,13 +47,16 @@
       </div>
     </div>
   </nav>
-    
+    <!--Finaliza Nav Estatico-->
 
-    <header class="header">
+
+
+    <!--Inicio de Menu-->
+      <header class="header" style="margin-top: 30px;">
         <nav class="navbar navbar-expand-lg navbar-light gradient p-4">
             <div class="container">
               <a class="navbar-brand" href="#">
-                  <img class="logo" src="./imagenes/BogotaTravelLogo.png" alt="logotipo">
+                  <img class="logo" src="../imagenes/BogotaTravelLogo.png" alt="logotipo">
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -63,7 +67,7 @@
                     <a class="nav-link" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./html/queHacer.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="./queHacer.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Qué hacer?
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -81,13 +85,13 @@
                     <a class="nav-link" href="./html/contactanos.html">Contáctanos</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./html/miCuenta.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="./miCuenta.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Mi Cuenta
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a class="dropdown-item bg-yellow" href="./html/miCuenta.html">Crear Cuenta</a></li>
                       <li><a class="dropdown-item bg-yellow" href="./html/ingresar.html">Iniciar Sesión</a></li>
-                      <li><a class="dropdown-item bg-yellow" href="./html/registrese.html">Registrese</a></li>
+                      <li><a class="dropdown-item bg-yellow" href="./Registrate.html">Registrese</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -97,46 +101,145 @@
     </header>
 
 
+    
 
     <!-- MI CODIGO COMIENZA A PARTIR DE ESTE COMENTARIO -->
 
+    <div class="Register">
+
+      <h1 style="margin-left: 60px;">Registrate</h1>
+      <br>
+      <br>
+      <br>
+
+      <h3>Suscríbete  a nuestra pagina y mantente al día con las últimas noticias, ofertas y eventos en cada la localidad que te encuentres
+      </h3>
+
+      </div>
+        <div class="row justify-content-center">
+        <div class="col-4">
+          <img src="../imagenes/GOOO.png">
+        </div>
+        <div class="col-4">
+          <img src="../imagenes/FACEE.png">
+        </div>
+      </div>
+
+
+            <!--Aqui se colocó la foto de bogotá-->
+
+            <div class="container">
+              <section class="section-center">
+                <article class="Cuent">
+                  <img src="../imagenes/bogota (1).jpg">
+                </article>
+              </section>
+            </div>
+
+            <h3>Ingresa los datos solicitados y preparate para una nueva experiencia</h3>
+            <br>
+            <br>
+            <br>
+
+            <!--Aqui inician los datos-->
+
+
+          
+          <!--Finaliza Formulario-->
+
+
+          <div class="container">
+            <div class="row">
+          
+                  <div class="col-lg-6 justify-content-center">
+                    <label for="name" style="font-size: 2.5rem; font-family: 'Ubuntu';"> <h5>Nombre </h5></label>   
+                    <input style="margin-left: 15%;margin-top: 3px;" type="text" id="name" name="name" placeholder="" required>
+                    </div>
+                  <div class="col-lg-6 justify-content-center">
+                    <label for="name" style="font-size: 2.5rem; font-family: 'Ubuntu';"> <h5>Correo </h5> </label>   
+                    <input style="margin-left: 38%; margin-top: 3px; " type="text" id="name" name="name" placeholder="" required>
+                    </div>
+                  <div class="col-lg-6 justify-content-center">
+                    <label for="name" style="font-size: 2.5rem; font-family: 'Ubuntu';"> <h5>Contraseña </h5></label>   
+                    <input style="margin-left: 63px; "type="text" id="name" name="name" placeholder="" required>
+                 </div>
+          
+                 
+                 <div class="col-lg-6 justify-content-center">
+                  <label for="name" style="font-size: 2.5rem; font-family: 'Ubuntu';"> <h5>Apellido </h5></label>   
+                  <input style="margin-left: 36%; margin-top: 3px; "type="text" id="name" name="name" placeholder="" required>
+                  </div>
+                <div class="col-lg-6 justify-content-center">
+                  <label for="name" style="font-size: 2.5rem; font-family: 'Ubuntu';"> <h5>Usuario </h5></label>   
+                  <input style="margin-left: 96px; margin-top: 3px; "type="text" id="name" name="name" placeholder="" required>
+                  </div>
+                <div class="col-lg-6 justify-content-center">
+                  <label for="name" style="font-size: 2.5rem; font-family: 'Ubuntu';"> <h5>Confirmar Contraseña </h5></label>
+                  <input style="margin-left: 16%; margin-top: 3px; "type="text" id="name" name="name" placeholder="" required>
+               </div>
+               
+               <div style="margin-left: 25%;margin-top: 30px;" class="row">
+
+
+                
+               <input type="checkbox" id="OpcionA" name="OpcionA" value="OpcionA"> He leído y acepto los Términos y condiciones de uso del portal
+                <input type="checkbox" id="OpcionA" name="OpcionA" value="OpcionA"> He leído y acepto la política de tratamiento de datos personales
 
 
 
 
+
+
+
+               <div>
+              </div>
+
+
+                    <div>
+            <div class="label" style="margin-left: 20%; margin-top: 15px;">
+                <button class="btn btn-warning"type="submit"> Registrarse </button>
+                <h5><p class="regtext">Ya tienes una cuenta? <a href="./miCuenta.html" >Entra Aquí!</a>!</p></h5>
+            </div>
+
+      </div>
+
+
+    </div>
     
 
-
-
     <!-- MI CODIGO FINALIZA ANTES DE ESTE COMENTARIO -->
-
+    
     <footer class="footer bg-dark p-5">
-        <div class="container">
-            <div class="row d-flex justify-content-between align-items-center">
-                <div class="col-8">
-                  <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                      <a class="nav-link txt-white" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link txt-white" aria-current="page" href="./html/queHacer.html">Qué hacer?</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link txt-white" aria-current="page" href="./html/quienesSomos.html">Quíenes Somos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link txt-white" aria-current="page" href="./html/contactanos.html">Contáctanos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link txt-white" aria-current="page" href="./html/miCuenta.html">Mi Cuenta</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-2">
-                    <img class="logo" src="./imagenes/Logo Empresa blanco.png" alt="logotipo">
-                </div>
-            </div>
-        </div>
+      <div class="container">
+          <div class="row d-flex justify-content-between align-items-center;">
+              <div class="col-8">
+                <ul class="nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link txt-white" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link txt-white" aria-current="page" href="./html/queHacer.html">Qué hacer?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link txt-white" aria-current="page" href="./html/quienesSomos.html">Quíenes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link txt-white" aria-current="page" href="./html/contactanos.html">Contáctanos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link txt-white" aria-current="page" href="./html/miCuenta.html">Mi Cuenta</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-2">
+                  <img class="logo" src="../imagenes/Logo Empresa blanco.png" alt="logotipo">
+              </div>
+          </div>
+      </div>
     </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
